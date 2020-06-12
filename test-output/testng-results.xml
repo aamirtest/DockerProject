@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51168" started-at="2020-06-12T13:01:17 IST" finished-at="2020-06-12T13:02:08 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51168" started-at="2020-06-12T13:01:17 IST" finished-at="2020-06-12T13:02:08 IST">
+      <class name="dockerProject.DockerwithChrome1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:dockerProject.DockerwithChrome1@30b8a058]" name="test1" duration-ms="13197" started-at="2020-06-12T13:01:37 IST" finished-at="2020-06-12T13:01:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- dockerProject.DockerwithChrome1 -->
+      <class name="dockerProject.SetUp_DockerGrid">
+        <test-method status="PASS" signature="startDockerGrid()[pri:0, instance:dockerProject.SetUp_DockerGrid@68bbe345]" name="startDockerGrid" is-config="true" duration-ms="20070" started-at="2020-06-12T13:01:17 IST" finished-at="2020-06-12T13:01:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method status="PASS" signature="stopDockerGrid()[pri:0, instance:dockerProject.SetUp_DockerGrid@68bbe345]" name="stopDockerGrid" is-config="true" duration-ms="5062" started-at="2020-06-12T13:02:03 IST" finished-at="2020-06-12T13:02:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- dockerProject.SetUp_DockerGrid -->
+      <class name="dockerProject.DockerwithFirefox">
+        <test-method status="PASS" signature="test3()[pri:0, instance:dockerProject.DockerwithFirefox@7494e528]" name="test3" duration-ms="25839" started-at="2020-06-12T13:01:37 IST" finished-at="2020-06-12T13:02:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- dockerProject.DockerwithFirefox -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
